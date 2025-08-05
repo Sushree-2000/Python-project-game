@@ -38,5 +38,14 @@ Game Structure:
             => rotate right: (0,1), (1,1), (1,2), (2,1)
             => rotate down: (1,0), (1,1), (1,2), (2,1)
             => rotate left: (0,1), (1,0), (1,1), (2,1)
+    - Colors represent as tuple
+- Move the blocks:
+    - Change the block poisitions to move them from the initial position (0,0) to different.
 
-- Colors represent as tuple
+
+
+Game Class
+===========
+- It will be a container for all the elements of our game. 
+- It will also hold all the game logics. So that the codes will be easier to understand maintain, expand.
+- Codes will be easier to read and reduce the risk of bugs.
