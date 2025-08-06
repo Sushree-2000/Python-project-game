@@ -25,22 +25,26 @@ Game Structure:
     - Drawing Objects
   - Checking for collisions
 - Create Grid:
-    - How pygame draws:
-        1) Display surface: It's like a blank Canvas. We can only have one per game.
-            -> Created by: "screen = pygame.display.set_mode((300, 600))"
-            -> Used as: "pygame.display.update()"
-        2) Surface: Another type of blank canvas. We can have many surfaces per game.
-        3) Rect: Rectangles are used for positioning, collision detection and for drawing objects.
+  - How pygame draws:
+      1) Display surface: It's like a blank Canvas. We can only have one per game.
+          -> Created by: "screen = pygame.display.set_mode((300, 600))"
+          -> Used as: "pygame.display.update()"
+      2) Surface: Another type of blank canvas. We can have many surfaces per game.
+      3) Rect: Rectangles are used for positioning, collision detection and for drawing objects.
 - Create blocks:
-    - L, J, I, O, T, S, Z blocks, with their middle point as rotating block
-    - Their rotation logic:
-        -> For ex: T => (0,1), (1,0), (1,1), (1,2)
-            => rotate right: (0,1), (1,1), (1,2), (2,1)
-            => rotate down: (1,0), (1,1), (1,2), (2,1)
-            => rotate left: (0,1), (1,0), (1,1), (2,1)
-    - Colors represent as tuple
+  - L, J, I, O, T, S, Z blocks, with their middle point as rotating block
+  - Their rotation logic:
+      -> For ex: T => (0,1), (1,0), (1,1), (1,2)
+          => rotate right: (0,1), (1,1), (1,2), (2,1)
+          => rotate down: (1,0), (1,1), (1,2), (2,1)
+          => rotate left: (0,1), (1,0), (1,1), (2,1)
+  - Colors represent as tuple
 - Move the blocks:
-    - Change the block poisitions to move them from the initial position (0,0) to different.
+  - Change the block poisitions to move them from the initial position (0,0) to different.
+- Rotate the blocks:
+  - Add rotation and undo_rotation functionalities
+- Checking for collisions:
+  
 
 
 
