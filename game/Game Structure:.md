@@ -45,6 +45,9 @@ Game Structure:
   - Add rotation and undo_rotation functionalities
 - Checking for collisions:
 - Checking for completed rows:
+- Create the User Interface:
+- Add Scoring
+- Add Next Block
   
 
 
@@ -54,3 +57,22 @@ Game Class
 - It will be a container for all the elements of our game. 
 - It will also hold all the game logics. So that the codes will be easier to understand maintain, expand.
 - Codes will be easier to read and reduce the risk of bugs.
+
+
+
+
+
+
+
+
+<!-- Push Commands -->
+
+ 1232  git pull
+ 1233  git branch
+ 1234  git checkout local_programs
+ 1235  git checkout local
+ 1236  git add .
+ 1237  git commit -a "Initial commits"
+ 1238  git commit -m "Initial commits"
+ 1239  git push origin local 
+ 1240  git pull origin local 
