@@ -44,6 +44,7 @@ Game Structure:
 - Rotate the blocks:
   - Add rotation and undo_rotation functionalities
 - Checking for collisions:
+- Checking for completed rows:
   
 
 
